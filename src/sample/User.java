@@ -8,14 +8,6 @@ public class User {
     String password;
     boolean loggedIn;
 
-    public User(String username, String password, boolean loggedIn) {
-        this.username = username;
-        this.password = password;
-        this.loggedIn = loggedIn;
-    }
-
-    public User() {
-    }
 
     public String getUsername() {
         return username;
